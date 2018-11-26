@@ -34,3 +34,12 @@ div, header, footer {
   height: 50px;
   color: green;
 }
+
+.selected {
+  background-color: green;
+  color: white;
+}
+
+.javascript-projects {
+  display: none;
+}
