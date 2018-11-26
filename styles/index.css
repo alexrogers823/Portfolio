@@ -18,8 +18,64 @@ div, header, footer {
   outline: 2px dashed blue;
 }
 
+h3 {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer {
+  text-align: center;
+}
+
+.shortcuts {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-content {
+  display: flex;
+}
+
+.about-me-content img {
+  width: 30%;
+  height: 30%;
+  margin: auto 0;
+  border-radius: 50%;
+}
+
 .technologies {
   /* background-color: black; */
+}
+
+.tech-icons {
+  display: flex;
+  /* flex: wrap; */
+}
+
+.tech-icons > * {
+  /* width: 100px;
+  height: 100px; */
+  /* flex: wrap; */
+  /* width: 40%; */
 }
 
 
@@ -30,8 +86,8 @@ div, header, footer {
 } */
 
 .fab, .fas {
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
   color: green;
 }
 
@@ -42,4 +98,16 @@ div, header, footer {
 
 .javascript-projects {
   display: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icons {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
