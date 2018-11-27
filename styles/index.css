@@ -96,6 +96,12 @@ footer {
   color: white;
 }
 
+.project-title {
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 1px #888;
+}
+
 .javascript-projects {
   display: none;
 }
