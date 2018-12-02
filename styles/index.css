@@ -39,6 +39,10 @@ footer {
   align-items: center;
 }
 
+.shortcuts span:hover {
+  background-color: green;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
